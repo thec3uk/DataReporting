@@ -1,0 +1,9 @@
+Content-Type: application/json
+X-Account: thec3
+X-Application: C3-DataReporting
+X-Auth: keyyzyy5l9uqicjacdtm
+
+
+
+call the OAuth client getAccessToken with the grantType you defined in the GRANT_TYPE constant, As following :
+$response = $client->getAccessToken(TOKEN_ENDPOINT, 'my_custom_grant_type', $params);
