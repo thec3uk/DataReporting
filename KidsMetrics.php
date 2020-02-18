@@ -30,5 +30,12 @@
 
             <span></span>
     </div>
+
+    <div>
+      <form action="APICall.php">
+        <input type="submit" Value="Attendance Graph">
+      </form>
+    </div>
+
   </body>
 </html>
