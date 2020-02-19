@@ -32,8 +32,18 @@
     </div>
 
     <div>
-      <form action="APICall.php">
-        <input type="submit" Value="Attendance Graph">
+      <form action="APICall.php" target="_blank" method="get">
+        <input type="radio" id="kids" name="graph" value="2">
+        <label class="bg-gray-800 font-montserrat text-white" for="kids">Kids Attendance</label><br>
+        <input type="radio" id="team" name="graph" value="2">
+        <label class="bg-gray-800 font-montserrat text-white" for="team">Team Attendance</label><br>
+        <input type="radio" id="2018" name="graph" value="2">
+        <label class="bg-gray-800 font-montserrat text-white" for="2018">2018 Attendance</label><br>
+        <input type="radio" id="monthly" name="graph" value="2">
+        <label class="bg-gray-800 font-montserrat text-white" for="monthly">Monthly Average</label><br>
+        <input type="radio" id="NtC" name="graph" value="2">
+        <label class="bg-gray-800 font-montserrat text-white" for="NtC">Average New to Church</label><br>
+        <input type="submit" Value="Generate Graph" class="bg-red-500 hover:bg-red-600 text-white text-center font-bold rounded py-4 px-2">
       </form>
     </div>
 

@@ -5,8 +5,9 @@
 * Basic script to connect to the API and GET a contact's details.
 *
 *****/
+$GroupID = $_GET['id'];
 
-$url = PASSTHISONSUBMIT;
+$url = 'https://api.churchsuite.co.uk/v1/children/group/'+$GroupID+'/attendance';
 
 $x_account = 'thec3';
 $x_application = 'C3-DataReporting';
