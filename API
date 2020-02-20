@@ -1,27 +1,234 @@
-Content-Type: application/json
-X-Account: thec3
-X-Application: C3-DataReporting
-X-Auth: keyyzyy5l9uqicjacdtm
-
-
+I'm just using this as a text dump at the moment :) 
 
 call the OAuth client getAccessToken with the grantType you defined in the GRANT_TYPE constant, As following :
 $response = $client->getAccessToken(TOKEN_ENDPOINT, 'my_custom_grant_type', $params);
 
 
-
-
-<div class="grid grid-cols-7 gap-10 my-20">
-            <span></span>
-            <a href="KidsMetrics.php" class="bg-red-500 hover:bg-red-600 text-white text-center font-bold rounded py-8">
-              Kids Church Metrics
-            </a>
-            <span></span>
-            <a href="index.php" class="bg-red-500 hover:bg-red-600 text-white text-center font-bold rounded py-8">
-              Home
-            </a>
-            <span></span>
-            <a href="YAMetrics.php" class="bg-red-500 hover:bg-red-600 text-white text-center font-bold rounded py-8">
-              YA Metrics
-            </a>
-            <span></span>
+array(12) {
+  ["2020-01-15"]=> array(17) {
+    [0]=> string(3) "685"
+    [1]=> string(3) "841"
+    [2]=> string(3) "842"
+    [3]=> string(3) "895"
+    [4]=> string(3) "909"
+    [5]=> string(3) "916"
+    [6]=> string(3) "942"
+    [7]=> string(3) "968"
+    [8]=> string(4) "1013"
+    [9]=> string(4) "1188"
+    [10]=> string(4) "1254"
+    [11]=> string(4) "1264"
+    [12]=> string(4) "1325"
+    [13]=> string(4) "1330"
+    [14]=> string(4) "1335"
+    ["total"]=> int(15)
+    ["notes"]=> NULL
+  }
+  ["2020-01-19"]=> array(21) {
+    [0]=> NULL [1]=> string(2) "17"
+    [2]=> string(2) "77"
+    [3]=> string(3) "279"
+    [4]=> string(3) "375"
+    [5]=> string(3) "532"
+    [6]=> string(3) "685"
+    [7]=> string(3) "734"
+    [8]=> string(3) "835"
+    [9]=> string(3) "895"
+    [10]=> string(4) "1114"
+    [11]=> string(3) "198"
+    [12]=> string(3) "344"
+    [13]=> string(3) "870"
+    [14]=> string(4) "1264"
+    [15]=> string(4) "1349"
+    [16]=> string(4) "1376"
+    [17]=> string(4) "1405"
+    [18]=> string(3) "685"
+    ["total"]=> int(19)
+    ["notes"]=> NULL
+  }
+  ["2020-01-22"]=> array(17) {
+    [0]=> string(3) "841"
+    [1]=> string(3) "842"
+    [2]=> string(3) "895"
+    [3]=> string(3) "909"
+    [4]=> string(3) "916"
+    [5]=> string(3) "922"
+    [6]=> string(3) "929"
+    [7]=> string(3) "942"
+    [8]=> string(4) "1080"
+    [9]=> string(4) "1188"
+    [10]=> string(4) "1213"
+    [11]=> string(4) "1254"
+    [12]=> string(4) "1326"
+    [13]=> string(4) "1330"
+    [14]=> string(4) "1335"
+    ["total"]=> int(15)
+    ["notes"]=> NULL
+  }
+  ["2020-01-26"]=> array(17) {
+    [0]=> string(2) "77"
+    [1]=> string(3) "188"
+    [2]=> string(3) "279"
+    [3]=> string(3) "532"
+    [4]=> string(3) "731"
+    [5]=> string(3) "835"
+    [6]=> string(3) "874"
+    [7]=> string(3) "895"
+    [8]=> string(4) "1114"
+    [9]=> string(4) "1322"
+    [10]=> string(3) "198"
+    [11]=> string(3) "344"
+    [12]=> string(4) "1049"
+    [13]=> string(4) "1405"
+    [14]=> string(3) "685"
+    ["total"]=> int(15)
+    ["notes"]=> NULL
+  }
+  ["2020-01-29"]=> array(25) {
+    [0]=> NULL
+    [1]=> NULL
+    [2]=> NULL
+    [3]=> string(3) "657"
+    [4]=> string(3) "841"
+    [5]=> string(3) "842"
+    [6]=> string(3) "895"
+    [7]=> string(3) "909"
+    [8]=> string(3) "916"
+    [9]=> string(3) "942"
+    [10]=> string(3) "954"
+    [11]=> string(3) "968"
+    [12]=> string(4) "1013"
+    [13]=> string(4) "1188"
+    [14]=> string(4) "1213"
+    [15]=> string(4) "1254"
+    [16]=> string(4) "1259"
+    [17]=> string(4) "1261"
+    [18]=> string(4) "1264"
+    [19]=> string(4) "1274"
+    [20]=> string(4) "1326"
+    [21]=> string(4) "1330"
+    [22]=> string(4) "1335"
+    ["total"]=> int(23)
+    ["notes"]=> NULL
+  }
+  ["2020-02-02"]=> array(16) {
+    [0]=> string(2) "77"
+    [1]=> string(3) "198"
+    [2]=> string(3) "279"
+    [3]=> string(3) "344"
+    [4]=> string(3) "532"
+    [5]=> string(3) "733"
+    [6]=> string(3) "734"
+    [7]=> string(3) "782"
+    [8]=> string(4) "1075"
+    [9]=> string(4) "1114"
+    [10]=> string(4) "1404"
+    [11]=> string(4) "1405"
+    [12]=> string(4) "1049"
+    [13]=> string(4) "1385"
+    ["total"]=> int(14)
+    ["notes"]=> string(0) ""
+  }
+  ["2020-02-05"]=> array(18) {
+    [0]=> NULL
+    [1]=> NULL
+    [2]=> string(3) "374"
+    [3]=> string(3) "841"
+    [4]=> string(3) "842"
+    [5]=> string(3) "909"
+    [6]=> string(3) "968"
+    [7]=> string(4) "1047"
+    [8]=> string(4) "1188"
+    [9]=> string(4) "1213"
+    [10]=> string(4) "1254"
+    [11]=> string(4) "1274"
+    [12]=> string(4) "1326"
+    [13]=> string(4) "1330"
+    [14]=> string(4) "1335"
+    [15]=> string(4) "1337"
+    ["total"]=> int(16)
+    ["notes"]=> NULL
+  }
+  ["2020-02-09"]=> array(19) {
+    [0]=> NULL
+    [1]=> string(2) "77"
+    [2]=> string(3) "279"
+    [3]=> string(3) "344"
+    [4]=> string(3) "532"
+    [5]=> string(3) "685"
+    [6]=> string(3) "731"
+    [7]=> string(3) "734"
+    [8]=> string(3) "835"
+    [9]=> string(3) "874"
+    [10]=> string(4) "1114"
+    [11]=> string(4) "1274"
+    [12]=> string(3) "895"
+    [13]=> string(4) "1383"
+    [14]=> string(4) "1385"
+    [15]=> string(4) "1404"
+    [16]=> string(3) "685"
+    ["total"]=> int(17)
+    ["notes"]=> NULL
+  }
+  ["2020-02-12"]=> array(6) {
+    [0]=> string(3) "916"
+    [1]=> string(3) "942"
+    [2]=> string(4) "1013"
+    [3]=> string(4) "1188"
+    ["total"]=> int(4)
+    ["notes"]=> NULL
+  }
+  ["2020-02-16"]=> array(22) {
+    [0]=> NULL
+    [1]=> string(2) "77"
+    [2]=> string(3) "279"
+    [3]=> string(3) "344"
+    [4]=> string(3) "532"
+    [5]=> string(3) "734"
+    [6]=> string(3) "835"
+    [7]=> string(4) "1274"
+    [8]=> string(4) "1389"
+    [9]=> string(3) "198"
+    [10]=> string(4) "1049"
+    [11]=> string(4) "1255"
+    [12]=> string(4) "1257"
+    [13]=> string(4) "1259"
+    [14]=> string(4) "1295"
+    [15]=> string(4) "1308"
+    [16]=> string(4) "1385"
+    [17]=> string(4) "1395"
+    [18]=> string(4) "1404"
+    [19]=> string(4) "1405"
+    ["total"]=> int(20)
+    ["notes"]=> NULL
+  }
+  ["2020-02-18"]=> array(3) {
+    [0]=> string(3) "895"
+    ["total"]=> int(1)
+    ["notes"]=> NULL
+  }
+  ["2020-02-19"]=> array(22) {
+    [0]=> NULL
+    [1]=> NULL
+    [2]=> NULL
+    [3]=> NULL
+    [4]=> NULL
+    [5]=> NULL
+    [6]=> NULL
+    [7]=> NULL
+    [8]=> string(3) "841"
+    [9]=> string(3) "909"
+    [10]=> string(3) "913"
+    [11]=> string(3) "916"
+    [12]=> string(3) "922"
+    [13]=> string(3) "954"
+    [14]=> string(4) "1213"
+    [15]=> string(4) "1254"
+    [16]=> string(4) "1259"
+    [17]=> string(4) "1261"
+    [18]=> string(4) "1330"
+    [19]=> string(4) "1335"
+    ["total"]=> int(20)
+    ["notes"]=> NULL
+  }
+}
