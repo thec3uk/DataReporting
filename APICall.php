@@ -90,8 +90,14 @@ function extractData($url, $api_headers) {
 
 //Define function for extracting only the total number of Kids from a session
 function extractAttendance($dataArray){
+	$dateArray=(array_keys($dataArray));
+
 	$attendanceArray = array_column($dataArray, 'total');
-	print_r($attendanceArray);
-	return $attendanceArray;
+	//print_r($attendanceArray);
+
+	$attendanceData = array_combine($dateArray, $attendanceArray);
+	//print_r($attendanceData);
+
+	return $attendanceData;
 }
 ?>

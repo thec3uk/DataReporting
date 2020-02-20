@@ -22,12 +22,12 @@
 
         <span> </span>
 
-        <table>
+        <table class="table-auto">
           <thead>
             <tr>
-              <th class="text-4xl font-montserrat text-white w-1/3">Ministry</th>
-              <th class="text-4xl font-montserrat text-white w-1/3">Session</th>
-              <th class="text-4xl font-montserrat text-white w-1/3">Graphs</th>
+              <th class="text-4xl font-montserrat text-white">Ministry</th>
+              <th class="text-4xl font-montserrat text-white">Session</th>
+              <th class="text-4xl font-montserrat text-white">Graphs</th>
             </tr>
           </thead>
 
@@ -169,6 +169,12 @@
         <input type="reset" class="bg-red-500 hover:bg-red-600 text-white text-center font-bold rounded py-8">
 
         <span> </span>
+
+    <!--    <span> </span>
+
+        <a class="bg-red-500 hover:bg-red-600 text-white text-center font-bold rounded py-8" href="/OpenLunch.php">Open Lunch Form</a>
+
+        <span> </span> -->
       </div>
     </form>
   </body>
