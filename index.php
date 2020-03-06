@@ -17,7 +17,7 @@
 
 <!-- Form Creation to Generate Data for Graphs -->
   <body class="bg-gray-800 font-montserrat">
-    <form action="APICall.php" target="_blank" method="get" id="graphData" name="GraphData">
+    <form action="Graph.php" target="_blank" method="get" id="graphData" name="GraphData">
       <div class="grid grid-cols-3 gap-4">
 
         <span> </span>

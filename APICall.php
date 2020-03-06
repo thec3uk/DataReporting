@@ -46,6 +46,8 @@ if ($ministry == "Kids Church") {
 		$Y1t2_Attendance = extractAttendance($Y1t2_Data);
 		$Y3t4_Attendance = extractAttendance($Y3t4_Data);
 		$Y5t6_Attendance = extractAttendance($Y5t6_Data);
+
+		$attendance = array_merge($WtP_Attendance, $PtR_Attendance, $Y1t2_Attendance, $Y3t4_Attendance, $Y5t6_Attendance);
 	}
 } else if ($ministry == "Youth") {
 	if ($session == "Fridays") {
@@ -101,3 +103,54 @@ function extractAttendance($dataArray){
 	return $attendanceData;
 }
 ?>
+
+<!DOCTYPE html>
+<html>
+
+<!-- Page Formatting -->
+  <head>
+    <title>C3 Data Reporting</title>
+    <meta name="Author" content="mia.axtell@outlook.com"/>
+    <link rel="stylesheet" href="output.css">
+  </head>
+
+<!-- Page Heading -->
+  <header class="bg-gray-800 font-montserrat">
+    <h1 class="text-6xl text-white text-center">
+      C3 Data Reporting
+    </h1>
+  </header>
+
+<!-- Form Creation to Generate Data for Graphs -->
+  <body class="bg-gray-800 font-montserrat">
+    <form action="Graph.php" target="_blank" method="get" id="graphData" name="GraphData">
+      <div class="grid grid-cols-3 gap-4">
+
+        <span> </span>
+
+        <table class="table-auto">
+          <thead>
+            <tr>
+              <th class="text-4xl font-montserrat text-white">Data Extracted Successfully</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="font-montserrat text-white px-4 py-2">
+                <input type="text" id="data" name="data" value=<?php echo $attendance; ?>>
+                <label for="data">Data</label>
+              </td>
+            </tr>
+
+						<tr>
+							<td>
+								<input type="submit" value="Generate Graph" class="bg-red-500 hover:bg-red-600 text-white text-center font-bold rounded py-8">
+							</td>
+						</tr>
+          </tbody>
+				</table>
+      </div>
+    </form>
+  </body>
+</html>
